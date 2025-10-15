@@ -3,7 +3,7 @@ import { Scene, SceneArray } from '../types';
 
 // QUAN TRỌNG: Thay đổi URL này thành URL của backend service trên Render.com của bạn
 // Khi chạy local, backend sẽ chạy ở cổng 3001
-const BACKEND_URL = 'http://localhost:3001'; 
+const BACKEND_URL = 'https://v2-2-asjx.onrender.com'; 
 // VÍ DỤ KHI DEPLOY: const BACKEND_URL = 'https://your-backend-app-name.onrender.com';
 
 const callApi = async (endpoint: string, body: object): Promise<SceneArray> => {
