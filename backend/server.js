@@ -10,6 +10,15 @@ const port = process.env.PORT || 3001;
 app.use(cors());
 app.use(express.json());
 
+// Thêm route handler cho GET /
+app.get('/', (req, res) => {
+  res.status(200).json({ 
+    status: 'ok', 
+    message: 'PromptVEO3 V2 Backend is running successfully.' 
+  });
+});
+
+
 const geminiApiKey = process.env.GEMINI_API_KEY;
 if (!geminiApiKey) {
   console.error("FATAL ERROR: GEMINI_API_KEY environment variable is not set.");
