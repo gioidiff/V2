@@ -1,1 +1,12 @@
-
+{
+  "name": "promptveo3-v2-frontend",
+  "version": "1.0.0",
+  "description": "Frontend for PromptVEO3 V2",
+  "scripts": {
+    "build": "echo 'No build step required, skipping...'"
+  },
+  "dependencies": {
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0"
+  }
+}
