@@ -1,0 +1,32 @@
+
+<!DOCTYPE html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PromptVEO3 Basic V2</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+      body {
+        background-color: #0d1217;
+      }
+      .custom-scrollbar::-webkit-scrollbar { width: 12px; }
+      .custom-scrollbar::-webkit-scrollbar-track { background: #161c24; border-radius: 10px; }
+      .custom-scrollbar::-webkit-scrollbar-thumb { background: #2a3b4e; border-radius: 10px; border: 3px solid #161c24; }
+      .custom-scrollbar::-webkit-scrollbar-thumb:hover { background: #3a4b5e; }
+    </style>
+    <script type="importmap">
+      {
+        "imports": {
+          "react": "https://aistudiocdn.com/react@^19.2.0",
+          "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/",
+          "react/": "https://aistudiocdn.com/react@^19.2.0/"
+        }
+      }
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/v2/frontend/index.tsx"></script>
+  </body>
+</html>
